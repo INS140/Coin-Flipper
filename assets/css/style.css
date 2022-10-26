@@ -49,12 +49,18 @@ button {
     background: linear-gradient(to bottom left, darkblue, lightblue);
 }
 
-#clear {
+#clear1, #clear2 {
     background: linear-gradient(to bottom left, orange, white);
 }
 
-#clear:hover {
+#clear1:hover, #clear2:hover {
     background: linear-gradient(to bottom left, red, orange);
+}
+
+.section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 /* Scoreboard Styles */
